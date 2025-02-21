@@ -1,0 +1,428 @@
+.navbar-brand span {
+    background: linear-gradient(135deg, #ffffff, rgb(47, 232, 245), #ffffff, #2ff9f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #021d45b3 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #66f0e9b3 !important;
+}
+
+.home {
+    background-image: url("https://www.shutterstock.com/image-illustration/close-man-hand-typing-keyboard-600nw-2279008239.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.greeting {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.my-name {
+    color: #ffffff;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.profession {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.profession-text {
+    background: linear-gradient(135deg, #ffffff, rgb(38, 234, 248), rgb(252, 249, 249), rgb(38, 234, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.home a {
+    display: inline-block;
+    background: rgba(6, 194, 207, 0.546);
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 30px;
+    margin-top: 15px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid rgba(6, 194, 207, 0.402);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.home a:hover {
+    color: rgba(6, 194, 207, 0.39);
+    background: none;
+    animation: pulsate 1s ease-in-out;
+}
+
+/* About */
+
+.about {
+    background: radial-gradient(#79f9e8f4, rgba(255, 255, 255, 0.799));
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.main-heading {
+    font-size: 35px;
+    font-family: Georgia, serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sub-heading {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.about-profession {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.about-profession-text {
+    background: linear-gradient(135deg, rgb(248, 47, 255), rgb(18, 15, 15));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.description {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.my-pic {
+    width: 300px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(206, 5, 152, 0.911);
+}
+
+.my-pic img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.my-pic:hover {
+    transform: scale(1.3);
+    z-index: 2;
+
+}
+
+.about a {
+    display: inline-block;
+    background: #172a41;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 30px;
+    font-weight: 500;
+    border: 2px solid #172a41;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.about a:hover {
+    color: #172a41;
+    background: none;
+    animation: pulsate 1s ease-in-out;
+    transition: 1s;
+}
+
+/* Services */
+.service {
+    background-image: url('https://shotkit.com/wp-content/uploads/2021/02/Black-background-skitterphoto.jpg');
+    background-size: cover;
+    padding-bottom: 50px;
+
+}
+
+.service-headings {
+    color: #ffffff;
+}
+
+.card {
+    background-color: #1d142258;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px rgb(8, 247, 251);
+    background-color: #080202;
+    color: #fff;
+}
+
+.icon {
+    font-size: 40px;
+    background: linear-gradient(135deg, #ffffff, rgb(30, 230, 244), rgb(18, 15, 15));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Skills */
+.skills {
+    background: radial-gradient(#79f9e8f4, rgba(255, 255, 255, 0.799));
+    padding-bottom: 50px;
+}
+
+.intern h1 {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.intern p {
+    font-size: 20px;
+    font-family: serif;
+}
+
+.intern a {
+    display: inline-block;
+    background: #172a41;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 500;
+    border: 2px solid #172a41;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.intern a:hover {
+    color: #16051a;
+    background: none;
+    animation: pulsate 1s ease-in-out;
+    transition: 1s;
+}
+
+.heading {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.project {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.intern p::before,
+.project::before {
+    content: "✪ ";
+    color: #85046b;
+}
+
+.skills .bars {
+    margin-bottom: 15px;
+}
+
+.skills .bars .info {
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.skills .line {
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+
+.skills .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #172a41;
+}
+
+.skills .java::before {
+    width: 80%;
+}
+
+.skills .html::before {
+    width: 70%;
+}
+
+.skills .css::before {
+    width: 60%;
+}
+
+.skills .js::before {
+    width: 50%;
+}
+
+.skills .bootstraps::before {
+    width: 50%;
+}
+
+/* Projects */
+.projects {
+    background-image: url('https://media.istockphoto.com/id/509470179/photo/sunflower-with-black-background.jpg?s=612x612&w=0&k=20&c=O4vFolPULeIhhRnNZYhed5qlT6tBMBwmFRYz5ZJj_wM=');
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.projects-headings {
+    color: #ffffff;
+}
+
+.card-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 5px solid #b3acacfe
+}
+
+/* Contacts */
+.contact {
+    background: radial-gradient(#79f9e8f4, rgba(255, 255, 255, 0.799));
+    padding-bottom: 50px;
+
+}
+
+.contact-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-detailes {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.social-menu ul {
+    position: absolute;
+    left: 20%;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.social-menu ul li a {
+    font-size: 30px;
+    color: #07537f;
+    ;
+}
+
+.social-menu ul li a:hover {
+    color: #85046b
+}
+
+.contact-info {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+
+}
+
+.fields {
+    margin: 10px;
+}
+
+.fields label {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.input-text {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #90a0a9;
+}
+
+.fields textarea {
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #90a0a9;
+}
+
+.button-area {
+    margin: 10px;
+}
+
+.button-area button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #172a41;
+    color: #ffffff;
+    background: #172a41;
+    border-radius: 10px;
+
+}
+
+.button-area button:hover {
+    color: #16051a;
+    background: none;
+    animation: pulsate 1s ease-in-out;
+    transition: 1s;
+}
+
+/*  Footer  */
+footer {
+    background: #111;
+    padding: 6px 16px;
+    color: #888c8d;
+    text-align: center;
+}
+
+footer span a {
+    color: #1e3551;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
