@@ -3,7 +3,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 35px;
+    font-size: 30px;
     font-family: Arial;
     font-weight: bold;
 }
@@ -11,6 +11,9 @@
 .navbar {
     background-color: #021d45b3 !important;
 }
+.navbar-toggler-icon{
+    background-color: #ffffff;
+ }
 
 .navbar-nav .nav-link {
     color: #ffffff !important;
@@ -37,14 +40,14 @@
 
 .my-name {
     color: #ffffff;
-    font-size: 70px;
+    font-size:42px;
     font-family: sans-serif;
     font-weight: 700;
 }
 
 .profession {
     color: #ffffff;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
 }
 
